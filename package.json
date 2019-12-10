@@ -1,0 +1,23 @@
+{
+  "name": "nsstorage",
+  "version": "1.0.0",
+  "description": "Express server running on NAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/doctor-useless/nsstorage.git"
+  },
+  "author": "Joseph Innes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doctor-useless/nsstorage/issues"
+  },
+  "homepage": "https://github.com/doctor-useless/nsstorage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
